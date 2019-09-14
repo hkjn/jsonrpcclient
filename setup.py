@@ -29,7 +29,7 @@ setup(
         "zmq": ["pyzmq"],
     },
     include_package_data=True,
-    install_requires=["apply_defaults<1", "click<7", "jsonschema<4"],
+    install_requires=["apply_defaults<1", "click", "jsonschema<4"],
     license="MIT",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -37,5 +37,5 @@ setup(
     package_data={"jsonrpcclient": ["response-schema.json"]},
     packages=["jsonrpcclient", "jsonrpcclient.clients"],
     url="https://github.com/bcb/jsonrpcclient",
-    version="3.3.4",
+    version="3.3.5",
 )
